@@ -1,27 +1,28 @@
 
 body {
-        font-family: "Roboto", sans-serif;
-        font-weight: 20px;
-        font-style: normal;
-        color: white;
-        background-color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    font-weight: 20px;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 209, 215);
       }
 
 nav {
     font-size: large;
+    
 }
 .nav-links {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+    flex-wrap: wrap;
     
 }
 
 button {
     width: 150px;
     height: 30px;
-    background-color: #3882f6;
+    background-color: pink;
 }
 
 .container-fluid {
@@ -31,6 +32,7 @@ button {
     padding-bottom: 50px;
     padding-top: 50px;
     padding-inline: 10px;
+    flex-wrap: wrap;
     
 }
 #left {
@@ -42,11 +44,10 @@ button {
 }
 
 #right {
-    width: 800px;
-    box-sizing: border-box;
+    width: fit-content;
+    height: fit-content;
     padding-right: 100px;
     
-
 }
 
 
@@ -61,6 +62,7 @@ button {
     justify-content: center;
     font-size: 16px;
     font-weight: 400;
+    flex-wrap: wrap;
 }
 
 #quote {
@@ -76,13 +78,13 @@ button {
 
 .main {
     font-size: 48px;
-    color: #F9FAF8;
+    color: rgb(0, 0, 0);
     font-weight: 900;
 }
 
 .secondary {
     font-size: 20px;
-    color: #E5E7EB
+    color: rgb(0, 0, 0)
 }
 
 .navbar {
@@ -110,15 +112,23 @@ button {
 }
 
 .images img {
-max-width: 200px;
-max-height: 200px;
+    border: 4px solid pink;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+
+
+
 }
+
 
 a {
 
     box-sizing: border-box;
     padding: 20px;
     text-decoration: none;
-    color: #F9FAF8;
+    color: black
     
 }
+
+
