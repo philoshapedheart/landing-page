@@ -121,7 +121,6 @@ button {
 
 }
 
-
 a {
 
     box-sizing: border-box;
@@ -131,4 +130,23 @@ a {
     
 }
 
+i {
+    padding-right: 20px;
+}
 
+.support-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+    
+    
+
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+}
